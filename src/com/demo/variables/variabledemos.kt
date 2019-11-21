@@ -1,12 +1,23 @@
 package com.demo.variables
 
+// Null Safety
 fun main(args: Array<String>) {
-    var sample  = "Welcome to programming"
+    var sampleVar: Int? = 10
+    sampleVar = null
 
-    var million1 = 10_00_000
+    sampleVar = 32
 
-    var million2: Int? = 1000_000
+    if (sampleVar!=null){
+        println("We have a value ${sampleVar}")
+    } else {
+        println("We don't have the value")
+    }
 
-    println("Testing $million1 == $million1 ${million1==million2}")
-    println("Testing $million1 === $million2 ${million1===million2}")
+    var sampleString: String? = "23"
+    sampleString = null
+    val stringLength = sampleString?.length ?: "Unknown Length"
+    println("The String length is ${stringLength}")
+
+    sampleVar = sampleString as? Int
+
 }
