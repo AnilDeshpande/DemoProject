@@ -42,7 +42,7 @@ fun main(args: Array<String>){
     }*/
 
 
-    /*val sampleName = "Anil Deshpande"
+    val sampleName = "Anil Deshpande"
     val splitString = sampleName.split(" ")
 
     val initials = when {
@@ -51,7 +51,7 @@ fun main(args: Array<String>){
         else -> "Unknown"
     }
 
-    println(initials)*/
+    println(initials)
 
     val sampleVarible: Any = 10.00
 
