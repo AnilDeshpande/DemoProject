@@ -41,4 +41,18 @@ fun main(args: Array<String>) {
     for(number in sampleArray){
         print("$number\t")
     }
+    println()
+
+    for (i in sampleArray.indices){
+        println(sampleArray[i])
+    }
+
+    println()
+
+    for((index, value) in sampleArray.withIndex()){
+        println("$index -> $value")
+    }
+
+
+
 }
