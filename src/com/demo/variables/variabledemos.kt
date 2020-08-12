@@ -20,4 +20,10 @@ fun main(args: Array<String>) {
 
     sampleVar = sampleString as? Int
 
+    val num1 = 12.12
+    val num2: Float = num1.toFloat() // Works
+    val num3: Double = num2.toDouble() // Exception
+
+
+
 }
