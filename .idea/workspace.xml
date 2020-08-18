@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65e0a05-64f5-4d79-96f5-c94e1022938d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/demo/classes/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/classes/TestingClasses.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/InheritanceDemo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/META-INF/KotlinDemoProject_for_Codetutor.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/META-INF/KotlinDemoProject_for_Codetutor.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ControlFlowDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ControlFlowDemoKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/variables/VariabledemosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/variables/VariabledemosKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/hello/SampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/hello/SampleKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/variables/variabledemos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/variables/variabledemos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/DomesticAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/DomesticAnimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/InheritanceDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/InheritanceDemoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Tiger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Tiger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/WildAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/WildAnimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/inhertancedemo/InheritanceDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/InheritanceDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,21 +148,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="131" key="GridCell.Tab.0.bottom" timestamp="1597168241197">
+    <state x="491" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1597687559527">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597168241197" />
-    <state width="1398" height="131" key="GridCell.Tab.0.center" timestamp="1597168241197">
+    <state x="491" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1597687559527" />
+    <state width="1398" height="131" key="GridCell.Tab.0.bottom" timestamp="1597688438794">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597168241197" />
-    <state width="1398" height="131" key="GridCell.Tab.0.left" timestamp="1597168241196">
+    <state width="1398" height="131" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597688438794" />
+    <state width="1398" height="131" key="GridCell.Tab.0.center" timestamp="1597688438794">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597168241196" />
-    <state width="1398" height="131" key="GridCell.Tab.0.right" timestamp="1597168241197">
+    <state width="1398" height="131" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597688438794" />
+    <state width="1398" height="131" key="GridCell.Tab.0.left" timestamp="1597688438793">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597168241197" />
+    <state width="1398" height="131" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597688438793" />
+    <state width="1398" height="131" key="GridCell.Tab.0.right" timestamp="1597688438794">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="131" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597688438794" />
   </component>
 </project>
