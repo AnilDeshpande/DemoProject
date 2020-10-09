@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65e0a05-64f5-4d79-96f5-c94e1022938d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Cat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Cats.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Climber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Dog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/DomesticAnimal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Tiger.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/WildAnimal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/multipleinheritancedemo/MIDemo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/META-INF/KotlinDemoProject_for_Codetutor.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/META-INF/KotlinDemoProject_for_Codetutor.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/TestingClassesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/TestingClassesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/BreakContinuesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/BreakContinuesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ControlFlowDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ControlFlowDemoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ForLoopsDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ForLoopsDemoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/WhileDemosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/WhileDemosKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Animal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Dog.class" afterDir="false" />
@@ -10,6 +26,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/InheritanceDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/InheritanceDemoKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Tiger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Tiger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/WildAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/WildAnimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/variables/VariabledemosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/variables/VariabledemosKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/hello/SampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/hello/SampleKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/demo/inhertancedemo/InheritanceDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/InheritanceDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,16 +38,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,14 +57,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596974906016" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.com.demo.inhertancedemo.InheritanceDemoKt">
+  <component name="RunManager" selected="Kotlin.MIDemoKt">
+    <configuration name="MIDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinDemoProject_for_Codetutor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.inhertancedemo.multipleinheritancedemo.MIDemoKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.demo.classes.TestingClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemoProject_for_Codetutor" />
       <option name="VM_PARAMETERS" />
@@ -72,19 +99,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.demo.controlflows.BreakContinuesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.demo.controlflows.WhileDemosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="KotlinDemoProject_for_Codetutor" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.controlflows.WhileDemosKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,17 +133,17 @@
     <list>
       <item itemvalue="Kotlin.com.demo.classes.TestingClassesKt" />
       <item itemvalue="Kotlin.com.demo.controlflows.BreakContinuesKt" />
-      <item itemvalue="Kotlin.com.demo.controlflows.WhileDemosKt" />
       <item itemvalue="Kotlin.com.demo.inhertancedemo.InheritanceDemoKt" />
       <item itemvalue="Kotlin.com.demo.variables.VariabledemosKt" />
+      <item itemvalue="Kotlin.MIDemoKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MIDemoKt" />
         <item itemvalue="Kotlin.com.demo.inhertancedemo.InheritanceDemoKt" />
         <item itemvalue="Kotlin.com.demo.classes.TestingClassesKt" />
         <item itemvalue="Kotlin.com.demo.variables.VariabledemosKt" />
         <item itemvalue="Kotlin.com.demo.controlflows.BreakContinuesKt" />
-        <item itemvalue="Kotlin.com.demo.controlflows.WhileDemosKt" />
       </list>
     </recent_temporary>
   </component>
@@ -148,25 +162,51 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1597687559527">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="2095" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1601805439250">
+      <screen x="1440" y="-40" width="1920" height="1057" />
     </state>
     <state x="491" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1597687559527" />
-    <state width="1398" height="131" key="GridCell.Tab.0.bottom" timestamp="1597688438794">
+    <state x="2095" y="154" key="#com.intellij.ide.util.MemberChooser/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601805439249" />
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601709687307">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597688438794" />
-    <state width="1398" height="131" key="GridCell.Tab.0.center" timestamp="1597688438794">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1601709687307" />
+    <state width="1878" height="172" key="GridCell.Tab.0.bottom" timestamp="1601806843411">
+      <screen x="1440" y="-40" width="1920" height="1057" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597688438794" />
-    <state width="1398" height="131" key="GridCell.Tab.0.left" timestamp="1597688438793">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="131" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601711425793" />
+    <state width="1878" height="172" key="GridCell.Tab.0.bottom/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601806843411" />
+    <state width="916" height="167" key="GridCell.Tab.0.bottom/1440.-63.1920.1080/0.0.1440.900@1440.-63.1920.1080" timestamp="1601788909516" />
+    <state width="916" height="167" key="GridCell.Tab.0.bottom/1440.-63.1920.1080/0.23.1440.877@1440.-63.1920.1080" timestamp="1601794766164" />
+    <state width="1878" height="172" key="GridCell.Tab.0.center" timestamp="1601806843407">
+      <screen x="1440" y="-40" width="1920" height="1057" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597688438793" />
-    <state width="1398" height="131" key="GridCell.Tab.0.right" timestamp="1597688438794">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="131" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601711425792" />
+    <state width="1878" height="172" key="GridCell.Tab.0.center/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601806843407" />
+    <state width="916" height="167" key="GridCell.Tab.0.center/1440.-63.1920.1080/0.0.1440.900@1440.-63.1920.1080" timestamp="1601788909514" />
+    <state width="916" height="167" key="GridCell.Tab.0.center/1440.-63.1920.1080/0.23.1440.877@1440.-63.1920.1080" timestamp="1601794766162" />
+    <state width="1878" height="172" key="GridCell.Tab.0.left" timestamp="1601806843393">
+      <screen x="1440" y="-40" width="1920" height="1057" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597688438794" />
+    <state width="1398" height="131" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601711425792" />
+    <state width="1878" height="172" key="GridCell.Tab.0.left/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601806843393" />
+    <state width="916" height="167" key="GridCell.Tab.0.left/1440.-63.1920.1080/0.0.1440.900@1440.-63.1920.1080" timestamp="1601788909513" />
+    <state width="916" height="167" key="GridCell.Tab.0.left/1440.-63.1920.1080/0.23.1440.877@1440.-63.1920.1080" timestamp="1601794766161" />
+    <state width="1878" height="172" key="GridCell.Tab.0.right" timestamp="1601806843409">
+      <screen x="1440" y="-40" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="131" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601711425793" />
+    <state width="1878" height="172" key="GridCell.Tab.0.right/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601806843409" />
+    <state width="916" height="167" key="GridCell.Tab.0.right/1440.-63.1920.1080/0.0.1440.900@1440.-63.1920.1080" timestamp="1601788909515" />
+    <state width="916" height="167" key="GridCell.Tab.0.right/1440.-63.1920.1080/0.23.1440.877@1440.-63.1920.1080" timestamp="1601794766163" />
+    <state x="1909" y="127" key="SettingsEditor" timestamp="1601804467343">
+      <screen x="1440" y="-40" width="1920" height="1057" />
+    </state>
+    <state x="1909" y="127" key="SettingsEditor/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601804467343" />
+    <state x="2001" y="158" width="798" height="661" key="find.popup" timestamp="1601788761034">
+      <screen x="1440" y="-40" width="1920" height="1057" />
+    </state>
+    <state x="421" y="187" width="598" height="548" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1601711149774" />
+    <state x="2001" y="158" width="798" height="661" key="find.popup/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601788761034" />
   </component>
 </project>
