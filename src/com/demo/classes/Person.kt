@@ -1,8 +1,8 @@
 package com.demo.classes
 
-class Person{
+open class Person{
 
-    var firstName: String? = null
+    protected var firstName: String? = null
     set(value) {
         field = value?.toUpperCase()
     }
@@ -22,6 +22,9 @@ class Person{
 
     var age: Int? = null
 
+    fun sampleFunction(){
+        this.firstName
+    }
 
     constructor(){
 
@@ -49,6 +52,7 @@ class Person{
     fun isMinor(): Boolean = this.age?.compareTo(18)!!<0
 
 }
+
 
 
 
