@@ -1,19 +1,19 @@
 package com.demo.learningextentions
 
-class Radio(val frequency: String){
+class Radio (val frequency: String){
     fun play(){
-        println("Playing Radio fm: ${frequency}")
+        println("Playing audio from fm: ${frequency}")
     }
 }
 
 class Car(val radio: Radio, val carName: String){
-    fun printCarName(){
+    fun printName(){
         print(carName)
     }
 
     fun Radio.audioDetails(){
-        printCarName()
-        print(": ")
+        printName()
+        print(" : ")
         radio.play()
     }
 
@@ -23,6 +23,6 @@ class Car(val radio: Radio, val carName: String){
 }
 
 fun main(array: Array<String>){
-    val myCar = Car(Radio("94.7"), "Tata Nexon")
-    myCar.showCarAudioDetails()
+    val car = Car(Radio("97.4"), "Tata Nexon")
+    car.showCarAudioDetails()
 }
