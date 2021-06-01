@@ -2,33 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65e0a05-64f5-4d79-96f5-c94e1022938d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Animal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Cat.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Cats.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Climber.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Dog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/DomesticAnimal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/Tiger.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/WildAnimal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/multipleinheritancedemo/MIDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/delegatesdemo/delegatedemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/objectsdemos/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/valueclassdemo/ValueClassDemo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/META-INF/KotlinDemoProject_for_Codetutor.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/META-INF/KotlinDemoProject_for_Codetutor.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/TestingClassesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/TestingClassesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/BreakContinuesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/BreakContinuesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ControlFlowDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ControlFlowDemoKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ForLoopsDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ForLoopsDemoKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/WhileDemosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/WhileDemosKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/DomesticAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/DomesticAnimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/InheritanceDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/InheritanceDemoKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Tiger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Tiger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/WildAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/WildAnimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/variables/VariabledemosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/variables/VariabledemosKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/hello/SampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/hello/SampleKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/inhertancedemo/InheritanceDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/inhertancedemo/InheritanceDemo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/hello/SampleKt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Interface" />
+        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
@@ -47,6 +27,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1fwq3qlb1vFb5SHXoSuUOmpHOZ2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,93 +45,97 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596974906016" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/demo/delegatesdemo" />
       <recent name="$PROJECT_DIR$/src/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MIDemoKt">
-    <configuration name="MIDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DelegatedemoKt">
+    <configuration name="DataClassDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemoProject_for_Codetutor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.inhertancedemo.multipleinheritancedemo.MIDemoKt" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.variables.DataClassDemoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.demo.classes.TestingClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="DelegatedemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemoProject_for_Codetutor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.classes.TestingClassesKt" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.delegatesdemo.DelegatedemoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.demo.controlflows.BreakContinuesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="EnumsDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemoProject_for_Codetutor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.controlflows.BreakContinuesKt" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.enumsdemo.EnumsDemoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.demo.inhertancedemo.InheritanceDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemoProject_for_Codetutor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.inhertancedemo.InheritanceDemoKt" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.objectsdemos.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.demo.variables.VariabledemosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ValueClassDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinDemoProject_for_Codetutor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.variables.VariabledemosKt" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.valueclassdemo.ValueClassDemoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.com.demo.classes.TestingClassesKt" />
-      <item itemvalue="Kotlin.com.demo.controlflows.BreakContinuesKt" />
-      <item itemvalue="Kotlin.com.demo.inhertancedemo.InheritanceDemoKt" />
-      <item itemvalue="Kotlin.com.demo.variables.VariabledemosKt" />
-      <item itemvalue="Kotlin.MIDemoKt" />
+      <item itemvalue="Application.DataClassDemoKt" />
+      <item itemvalue="Application.EnumsDemoKt" />
+      <item itemvalue="Application.MainKt" />
+      <item itemvalue="Application.ValueClassDemoKt" />
+      <item itemvalue="Application.DelegatedemoKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MIDemoKt" />
-        <item itemvalue="Kotlin.com.demo.inhertancedemo.InheritanceDemoKt" />
-        <item itemvalue="Kotlin.com.demo.classes.TestingClassesKt" />
-        <item itemvalue="Kotlin.com.demo.variables.VariabledemosKt" />
-        <item itemvalue="Kotlin.com.demo.controlflows.BreakContinuesKt" />
+        <item itemvalue="Application.DelegatedemoKt" />
+        <item itemvalue="Application.MainKt" />
+        <item itemvalue="Application.ValueClassDemoKt" />
+        <item itemvalue="Application.EnumsDemoKt" />
+        <item itemvalue="Application.EnumsDemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -161,52 +153,16 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2095" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1601805439250">
-      <screen x="1440" y="-40" width="1920" height="1057" />
-    </state>
-    <state x="491" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1597687559527" />
-    <state x="2095" y="154" key="#com.intellij.ide.util.MemberChooser/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601805439249" />
-    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601709687307">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1601709687307" />
-    <state width="1878" height="172" key="GridCell.Tab.0.bottom" timestamp="1601806843411">
-      <screen x="1440" y="-40" width="1920" height="1057" />
-    </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601711425793" />
-    <state width="1878" height="172" key="GridCell.Tab.0.bottom/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601806843411" />
-    <state width="916" height="167" key="GridCell.Tab.0.bottom/1440.-63.1920.1080/0.0.1440.900@1440.-63.1920.1080" timestamp="1601788909516" />
-    <state width="916" height="167" key="GridCell.Tab.0.bottom/1440.-63.1920.1080/0.23.1440.877@1440.-63.1920.1080" timestamp="1601794766164" />
-    <state width="1878" height="172" key="GridCell.Tab.0.center" timestamp="1601806843407">
-      <screen x="1440" y="-40" width="1920" height="1057" />
-    </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601711425792" />
-    <state width="1878" height="172" key="GridCell.Tab.0.center/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601806843407" />
-    <state width="916" height="167" key="GridCell.Tab.0.center/1440.-63.1920.1080/0.0.1440.900@1440.-63.1920.1080" timestamp="1601788909514" />
-    <state width="916" height="167" key="GridCell.Tab.0.center/1440.-63.1920.1080/0.23.1440.877@1440.-63.1920.1080" timestamp="1601794766162" />
-    <state width="1878" height="172" key="GridCell.Tab.0.left" timestamp="1601806843393">
-      <screen x="1440" y="-40" width="1920" height="1057" />
-    </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601711425792" />
-    <state width="1878" height="172" key="GridCell.Tab.0.left/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601806843393" />
-    <state width="916" height="167" key="GridCell.Tab.0.left/1440.-63.1920.1080/0.0.1440.900@1440.-63.1920.1080" timestamp="1601788909513" />
-    <state width="916" height="167" key="GridCell.Tab.0.left/1440.-63.1920.1080/0.23.1440.877@1440.-63.1920.1080" timestamp="1601794766161" />
-    <state width="1878" height="172" key="GridCell.Tab.0.right" timestamp="1601806843409">
-      <screen x="1440" y="-40" width="1920" height="1057" />
-    </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601711425793" />
-    <state width="1878" height="172" key="GridCell.Tab.0.right/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601806843409" />
-    <state width="916" height="167" key="GridCell.Tab.0.right/1440.-63.1920.1080/0.0.1440.900@1440.-63.1920.1080" timestamp="1601788909515" />
-    <state width="916" height="167" key="GridCell.Tab.0.right/1440.-63.1920.1080/0.23.1440.877@1440.-63.1920.1080" timestamp="1601794766163" />
-    <state x="1909" y="127" key="SettingsEditor" timestamp="1601804467343">
-      <screen x="1440" y="-40" width="1920" height="1057" />
-    </state>
-    <state x="1909" y="127" key="SettingsEditor/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601804467343" />
-    <state x="2001" y="158" width="798" height="661" key="find.popup" timestamp="1601788761034">
-      <screen x="1440" y="-40" width="1920" height="1057" />
-    </state>
-    <state x="421" y="187" width="598" height="548" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1601711149774" />
-    <state x="2001" y="158" width="798" height="661" key="find.popup/1440.-40.1920.1057/0.23.1440.877@1440.-40.1920.1057" timestamp="1601788761034" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
