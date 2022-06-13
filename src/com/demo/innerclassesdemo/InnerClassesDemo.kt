@@ -16,10 +16,9 @@ class Person(val name: String?,
 }
 
 
-
 fun main(array: Array<String>){
-
     val person = Person("Anil", null);
+    val personAddress  = person.Address("231","Sample Street", "Sample Locality","Sample City","234234")
     person.address = person.Address("231","Sample Street", "Sample Locality","Sample City","234234")
 
     person.address?.displayAddress()
@@ -28,3 +27,4 @@ fun main(array: Array<String>){
 
 
 }
+

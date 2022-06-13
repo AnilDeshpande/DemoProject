@@ -1,5 +1,7 @@
 package com.demo.valueclassdemo
-
+interface DummyInterface{
+    fun dummyFunc()
+}
 @JvmInline
 value class TimePeriod private constructor (
     val timePeriod: Long
