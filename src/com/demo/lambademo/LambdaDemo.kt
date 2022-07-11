@@ -29,7 +29,7 @@ fun main(args: Array<String>){
     }
 
     val fullName = "Anil Vasant Deshpande"
-    //println("${fullName.lambdaAbbreviate()}")
+    println("${fullName.lambdaAbbreviate()}")
 
     val lambdaAgeDescription: (Int)->String = description@ {age: Int ->
         if (age<13) return@description "Child"
