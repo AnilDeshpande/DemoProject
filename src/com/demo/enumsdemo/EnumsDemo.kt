@@ -26,21 +26,9 @@ enum class CoffeeCupSize (val quantity: Int) {
 
 }
 
-class Order (var orderSize: CoffeeCupSize)
+class Order (var count: Int)
 
 fun main(array: Array<String>){
-
-    val myOrder = Order(CoffeeCupSize.SMALL)
-    println(myOrder.orderSize.getInfo())
-
-    when(myOrder.orderSize){
-        CoffeeCupSize.MEGA -> print("This is Mega")
-        CoffeeCupSize.LARGE -> print("This is Mega")
-        CoffeeCupSize.MEDIUM -> print("This is Mega")
-        CoffeeCupSize.SMALL -> print("This is Mega")
-    }
-
-
 
 
 }
