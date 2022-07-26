@@ -1,19 +1,30 @@
 package com.demo.lambademo
 
-enum class Delivery { STANDARD, EXPEDITED }
+import com.demo.enumsdemo.CoffeeCupSize
+import com.demo.enumsdemo.Order
 
-class Order(val itemCount: Int)
-
-fun getShippingCostCalculator(delivery: Delivery):(Order)->Double{
-    if(delivery == Delivery.EXPEDITED){
-        return {order -> 6+2.1 * order.itemCount}
+fun priceCalculator(coffeeCupSize: CoffeeCupSize):(Order)->Float{
+    when(coffeeCupSize){
+        CoffeeCupSize.SMALL -> return { order -> order.count * 1.0f }
+        CoffeeCupSize.MEDIUM -> return { order -> order.count * 1.5f }
+        CoffeeCupSize.LARGE -> return { order -> order.count * 2.5f }
+        CoffeeCupSize.MEGA -> return { order -> order.count * 3.5f }
     }
-    return {order -> 1.2 * order.itemCount}
 }
 
-
-
 fun main(args: Array<String>) {
-    val calculator = getShippingCostCalculator(Delivery.EXPEDITED).invoke(Order(3))
-    println("Shipping Costs: ${calculator}")
+    val orders = listOf(
+        Pair(CoffeeCupSize.MEDIUM,Order(1)),
+        Pair(CoffeeCupSize.MEGA,Order(1)),
+        Pair(CoffeeCupSize.SMALL,Order(2)),
+        Pair(CoffeeCupSize.LARGE,Order(1))
+    )
+
+    println("The cost of order is : ${getTotalOrderCost(orders)}")
+}
+
+fun getTotalOrderCost(orders: List<Pair<CoffeeCupSize, Order>>): Float {
+    var sum = 0f
+    orders.forEach { priceCalculator(it.first).invoke(it.second).also { sum += it } }
+    return sum
 }
