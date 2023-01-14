@@ -2,7 +2,7 @@ package com.demo.classes
 
 open class Person{
 
-    protected var firstName: String? = null
+    var firstName: String? = null
     set(value) {
         field = value?.toUpperCase()
     }
