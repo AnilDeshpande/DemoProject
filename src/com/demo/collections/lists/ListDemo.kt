@@ -31,6 +31,7 @@ fun main(array: Array<String>){
 
 
 
+
     // Transforming the existing list in to a Map
 
     val transformedGroupBy = people.groupBy(keySelector = {it.firstName+it.age}, valueTransform = {it.firstName +" "+" "+it.lastName})
@@ -53,5 +54,11 @@ fun main(array: Array<String>){
     println("Sum of numbers: ${numberList.reduce { acc, number -> acc + number }}")
 
     //aggregate - min, max, average, sum, count
+
+    println("Count of List ${numberList.count()}")
+    println("Min of List ${numberList.minOrNull()}")
+    println("Max of List ${numberList.maxOrNull()}")
+    println("Sum of List ${numberList.sum()}")
+    println("Average of List ${numberList.average()}")
     
 }
