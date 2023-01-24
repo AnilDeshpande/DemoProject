@@ -3,21 +3,35 @@ package com.demo.collections.lists
 fun main(array: Array<String>) {
     //Slice, Take and Drop, Chunked, Windowed
 
-    val listOfCities = listOf<String>("Bangalore","Hyderabad","Mumbai","New Delhi","Chennai","Thiruvananthapuram","Panji")
+    val listOfCities = listOf<String>("Hubli","Bangalore","Hyderabad","Mumbai","New Delhi","Chennai","Thiruvananthapuram","Panji")
 
-    println(listOfCities.slice(0..2))
-    println(listOfCities.slice(0..5 step 2))
-    println(listOfCities.slice(setOf(2,5,6)))
+    //Slice
+//    println(listOfCities.slice(0..2))
+//    println(listOfCities.slice(0..5 step 2))
+//    println(listOfCities.slice(setOf(2,5,6)))
 
-    println("take demo:  ${listOfCities.take(4)}")
-    println("take while ${listOfCities.takeWhile { it.length <= 5 }}")
-    println("takeLast: ${listOfCities.takeLast(3)}")
-    println("takeLastWhile: ${listOfCities.takeLastWhile { it[0] <= 'P' }}")
-    println("takeDrop: ${listOfCities.drop(3)}")
-    println("dropWhile:  ${listOfCities.dropWhile { it.length >= 6 }}")
-    println("dropLast ${listOfCities.dropLast(3)}")
-    println("dropLastWhile ${listOfCities.dropLastWhile { it[0] <= 'C' }}")
+
+      //take, drop
+//    println("take demo:  ${listOfCities.take(4)}")
+//    println("takeDrop: ${listOfCities.drop(3)}")
+
+    //takeWhile, dropWhile
+//    println("take while ${listOfCities.takeWhile { it.length >= 4 }}")
+//    println("dropWhile:  ${listOfCities.dropWhile { it.length >= 4 }}")
+
+    //takeLast, dropLast
+//    println("takeLast: ${listOfCities.takeLast(3)}")
+//    println("dropLast ${listOfCities.dropLast(3)}")
+
+
+    //takeLastWhile, dropLastWhile
+//    println("takeLastWhile: ${listOfCities.takeLastWhile { it[0] >= 'P' }}")
+//    println("dropLastWhile ${listOfCities.dropLastWhile { it[0] >= 'P' }}")
+
     // chunked
-    println(listOfCities.chunked(3))
-    println(listOfCities.windowed(3,1,true))
+    println("Chunked : "+listOfCities.chunked(3))
+//    println(listOfCities.chunked(3){list: List<String> -> list.fold(""){acc: String, s: String -> acc + s.get(0) } })
+
+    //windowed
+    println("Windowed: "+listOfCities.windowed(3,2,true))
 }
