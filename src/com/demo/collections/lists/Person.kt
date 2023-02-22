@@ -1,6 +1,6 @@
 package com.demo.collections.lists
 
-data class Person (val firstName: String, val lastName: String, var nationality: String, var age: Int): Comparable<Person> {
+data class Person (val firstName: String, val lastName: String, var nationality: String?, var age: Int): Comparable<Person> {
     override fun compareTo(other: Person): Int {
         return this.age.compareTo(other.age)
     }
