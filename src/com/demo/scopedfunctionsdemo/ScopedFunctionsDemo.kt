@@ -14,20 +14,24 @@ fun main(args: Array<String>){
         Person("James","Blend","UK",15),
     )
     //let
-    var letVaraible  = Person("James","Blend","UK",15).let {
-        currentPerson -> currentPerson.nationality+currentPerson.age
+    var letVaraible: Person?  = null //Person("James","Blend","UK",15)
+    letVaraible?.let {
+            currentPerson -> currentPerson?.nationality+currentPerson?.age
     }
     println("Let: $letVaraible")
 
 
 
     //run
-    var runVariable  = Person("James","Blend","UK",15).run {
+    var runVariable: Person?  =  null // Person("James","Blend","UK",15)
+    runVariable?.run {
         return@run this.nationality+this.age
     }
     println("Run: $runVariable")
 
     //with
+
+    var seconVariable: Person? = null
     var withVariable  = with(Person("James","Blend","UK",15)) {
         return@with this.nationality+this.age
     }
@@ -35,16 +39,18 @@ fun main(args: Array<String>){
 
 
     //
-    var applyVariable  = Person("James","Blend","UK",15).apply {
+    var applyVariable: Person?  = null//Person("James","Blend","UK",15)
+    applyVariable?.apply {
         //return@apply this.lastName - This is a error
-        firstName = firstName.reversed()
+        this?.firstName = firstName.reversed()
         nationality = "USA"
     }
     println("Apply: $applyVariable")
 
-    var alsoVariable  = Person("James","Blend","UK",15).also {
+    var alsoVariable: Person?  = null //Person("James","Blend","UK",15)
+    alsoVariable?.also {
 //        return@also it.nationality - This is a error
-        currentPerson ->
+            currentPerson ->
         currentPerson.firstName = currentPerson.firstName.reversed()
         currentPerson.nationality = "USA"
     }
