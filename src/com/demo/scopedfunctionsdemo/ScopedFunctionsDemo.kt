@@ -15,7 +15,7 @@ fun main(args: Array<String>){
     )
     //let
     var letVaraible  = Person("James","Blend","UK",15).let {
-
+        return@let it.nationality+it.age
     }
     println("Let: $letVaraible")
 
@@ -23,25 +23,29 @@ fun main(args: Array<String>){
 
     //run
     var runVariable  = Person("James","Blend","UK",15).run {
-
+        return@run this.nationality+this.age
     }
     println("Run: $runVariable")
 
     //with
     var withVariable  = with(Person("James","Blend","UK",15)) {
-
+        return@with this.nationality+this.age
     }
     println("With: $withVariable")
 
 
     //
     var applyVariable  = Person("James","Blend","UK",15).apply {
-
+        //return@apply this.lastName - This is a error
+        firstName = firstName.reversed()
+        nationality = "USA"
     }
     println("Apply: $applyVariable")
 
     var alsoVariable  = Person("James","Blend","UK",15).also {
-
+//        return@also it.nationality - This is a error
+        it.firstName = it.firstName.reversed()
+        it.nationality = "USA"
     }
     println("Also: $alsoVariable")
 
