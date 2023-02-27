@@ -1,4 +1,4 @@
-package com.demo.coroutinesdemo;
+package com.demo.coroutinesdemo.javathreaddemo;
 
 class MyThread extends Thread{
 
@@ -15,7 +15,6 @@ class MyThread extends Thread{
                 e.printStackTrace();
             }
         }
-
         System.out.println("Worker Thread ended");
     }
 }
