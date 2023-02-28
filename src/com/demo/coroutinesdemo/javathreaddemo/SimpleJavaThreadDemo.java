@@ -1,11 +1,9 @@
 package com.demo.coroutinesdemo.javathreaddemo;
 
 class MyThread extends Thread{
-
     @Override
     public void run() {
         System.out.println("Worker Thread Started");
-
         System.out.println("Thread name: "+Thread.currentThread().getName()+", Thread id: "+Thread.currentThread().getId());
         for(int i=0;i<10;i++){
             try {
