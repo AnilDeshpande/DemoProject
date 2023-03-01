@@ -22,6 +22,12 @@ public class SimpleJavaThreadDemo {
         System.out.println("Main started");
         System.out.println("Thread name: "+Thread.currentThread().getName()+", Thread id: "+Thread.currentThread().getId());
         new MyThread().start();
+        try{
+            Thread.currentThread().sleep(1000);
+        }catch (Exception e){
+
+        }
+
         System.out.println("Main ended");
     }
 }
