@@ -5,21 +5,17 @@ import  kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 
 suspend fun longRunningWork(coroutineName: String, delay: Long) {
-    println("Worker Thread Started")
-    println("Thread name: " + Thread.currentThread().name + ", Thread id: ${Thread.currentThread().id} in ${coroutineName}" )
+    println("${coroutineName} Started")
     for( i in 0..9){
        delay(delay)
-        println("Remaining time left for ${Thread.currentThread().name}: " + (10 - i) +" in "+coroutineName)
+       println("Remaining time left for ${coroutineName}: " + (10 - i))
     }
-    println("Worker Thread ended")
+    println("${coroutineName} ended")
 }
 
  fun main() = runBlocking {
     println("Main Started")
     println("Thread name: " + Thread.currentThread().name + ", Thread id: " + Thread.currentThread().id)
-     for(i in 0..1000000) {
-         async { longRunningWork("CoRoutine ${i}", 100*i.toLong()) }
-     }
-
+    async { longRunningWork("Sample Coroutine", 1000) }
     println("Main ended")
 }
