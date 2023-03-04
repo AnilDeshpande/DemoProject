@@ -1,6 +1,6 @@
 package com.demo.coroutinesdemo.kotlinthreademo
 
-internal class MyThread(val threadName: String, val sleepDelay: Long) : Thread(threadName) {
+internal class MyThread(private val threadName: String, val sleepDelay: Long) : Thread(threadName) {
     override fun run() {
         println("Worker Thread Started")
         println("Thread name: " + currentThread().name + ", Thread id: " + currentThread().id)
