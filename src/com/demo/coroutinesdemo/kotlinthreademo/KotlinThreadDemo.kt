@@ -19,6 +19,8 @@ internal class MyThread(private val threadName: String, val sleepDelay: Long) : 
 fun main(args: Array<String>) {
     println("Main started")
     println("Thread name: " + Thread.currentThread().name + ", Thread id: " + Thread.currentThread().id)
-    MyThread("LoginRunningTask1", 10).start()
+    for(i in 0..1000000) {
+        MyThread(Thread.currentThread().name, 100*i.toLong()).start()
+    }
     println("Main ended")
 }

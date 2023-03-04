@@ -17,6 +17,9 @@ suspend fun longRunningWork(coroutineName: String, delay: Long) {
  fun main() = runBlocking {
     println("Main Started")
     println("Thread name: " + Thread.currentThread().name + ", Thread id: " + Thread.currentThread().id)
-     async { longRunningWork("CoRoutine 1", 30) }
+     for(i in 0..1000000) {
+         async { longRunningWork("CoRoutine ${i}", 100*i.toLong()) }
+     }
+
     println("Main ended")
 }
