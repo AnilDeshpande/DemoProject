@@ -2,13 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65e0a05-64f5-4d79-96f5-c94e1022938d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/demo/delegatesdemo/delegatedemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/objectsdemos/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/valueclassdemo/ValueClassDemo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/META-INF/KotlinDemoProject_for_Codetutor.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/META-INF/KotlinDemoProject_for_Codetutor.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/TestingClassesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/TestingClassesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/BreakContinuesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/BreakContinuesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ControlFlowDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ControlFlowDemoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ForLoopsDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/ForLoopsDemoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/WhileDemosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/WhileDemosKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cats$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cats$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Cats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Climber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Climber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/DomesticAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/DomesticAnimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/InheritanceDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/InheritanceDemoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Tiger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/Tiger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/WildAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/WildAnimal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/B$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/B$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/C$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/C$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/MIDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/MIDemoKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/variables/VariabledemosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/variables/VariabledemosKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/hello/SampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/ScribblePad.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/ScribblePad.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +40,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -43,10 +64,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596974906016" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -56,86 +81,61 @@
       <recent name="$PROJECT_DIR$/src/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DelegatedemoKt">
-    <configuration name="DataClassDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.CoRoutineDemoKt">
+    <configuration name="SimpleJavaThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.coroutinesdemo.javathreaddemo.SimpleJavaThreadDemo" />
       <module name="KotlinDemoProject_for_Codetutor" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.variables.DataClassDemoKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.coroutinesdemo.javathreaddemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DelegatedemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="CoRoutineDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.coroutinesdemo.CoRoutineDemoKt" />
       <module name="KotlinDemoProject_for_Codetutor" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.delegatesdemo.DelegatedemoKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumsDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="KotlinThreadDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.coroutinesdemo.kotlinthreademo.KotlinThreadDemoKt" />
       <module name="KotlinDemoProject_for_Codetutor" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.enumsdemo.EnumsDemoKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ScribblePadKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.ScribblePadKt" />
       <module name="KotlinDemoProject_for_Codetutor" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.objectsdemos.MainKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ValueClassDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="KotlinDemoProject_for_Codetutor" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.demo.valueclassdemo.ValueClassDemoKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="KotlinDemoProject_for_Codetutor" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DataClassDemoKt" />
-      <item itemvalue="Application.EnumsDemoKt" />
-      <item itemvalue="Application.MainKt" />
-      <item itemvalue="Application.ValueClassDemoKt" />
-      <item itemvalue="Application.DelegatedemoKt" />
+      <item itemvalue="Application.SimpleJavaThreadDemo" />
+      <item itemvalue="Kotlin.ValueClassDemoKt" />
+      <item itemvalue="Kotlin.CoRoutineDemoKt" />
+      <item itemvalue="Kotlin.KotlinThreadDemoKt" />
+      <item itemvalue="Kotlin.ScribblePadKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DelegatedemoKt" />
-        <item itemvalue="Application.MainKt" />
-        <item itemvalue="Application.ValueClassDemoKt" />
-        <item itemvalue="Application.EnumsDemoKt" />
-        <item itemvalue="Application.EnumsDemoKt" />
+        <item itemvalue="Kotlin.CoRoutineDemoKt" />
+        <item itemvalue="Kotlin.KotlinThreadDemoKt" />
+        <item itemvalue="Kotlin.ScribblePadKt" />
+        <item itemvalue="Application.SimpleJavaThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -164,5 +164,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DemoProject$TestMain.ic" NAME="TestMain Coverage Results" MODIFIED="1651153014266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.demo.testingcode.*</FILTER>
+    </SUITE>
   </component>
 </project>
