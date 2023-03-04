@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65e0a05-64f5-4d79-96f5-c94e1022938d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/META-INF/KotlinDemoProject_for_Codetutor.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/META-INF/KotlinDemoProject_for_Codetutor.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/TestingClassesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/TestingClassesKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/BreakContinuesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/controlflows/BreakContinuesKt.class" afterDir="false" />
@@ -29,7 +29,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/MIDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/inhertancedemo/multipleinheritancedemo/MIDemoKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/variables/VariabledemosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/com/demo/variables/VariabledemosKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinDemoProject_for_Codetutor/hello/SampleKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/ScribblePad.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/ScribblePad.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

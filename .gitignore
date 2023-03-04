@@ -1,4 +1,5 @@
 
 out/
-.idea/
+out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/*.class
+.idea/*
 *.kotlin_module
