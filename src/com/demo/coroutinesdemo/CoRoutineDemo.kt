@@ -7,8 +7,9 @@ suspend fun longRunningWork(coroutineName: String, delay: Long) {
     println("Thread name: " + Thread.currentThread().name + ", Thread id: ${Thread.currentThread().id} in ${coroutineName}" )
     for( i in 0..9){
        delay(delay)
+//        println("Remaining time left for ${coroutineName} running on ${Thread.currentThread().name} thread is ${(10- i)}")
         withContext(Dispatchers.Default){
-            println("Remaining time left for ${Thread.currentThread().name}: " + (10 - i) +" in "+coroutineName)
+            println("Remaining time left for ${coroutineName} running on ${Thread.currentThread().name} thread is ${(10- i)}")
         }
     }
     println("${coroutineName} Thread ended")
