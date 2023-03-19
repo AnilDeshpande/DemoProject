@@ -18,6 +18,5 @@ suspend fun longRunningWork(coroutineName: String, delay: Long) {
     println("Main Started")
     println("Thread name: " + Thread.currentThread().name + ", Thread id: " + Thread.currentThread().id)
      async { longRunningWork("CoRoutine1", 500) }
-     async { longRunningWork("CoRoutine2", 400) }
     println("Main ended")
 }
