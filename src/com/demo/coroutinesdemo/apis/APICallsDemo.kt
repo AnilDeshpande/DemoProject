@@ -13,10 +13,12 @@ fun main(array: Array<String>) = runBlocking {
         apiCalls.registerUser(Person("SampleFirstName","SampleLastName","SampleNationality",30)).let {
             println(it)
         }
+    }.join()
 
-       apiCalls.getAllUsers().let {
-           println(it)
-       }
+    launch {
+        apiCalls.getAllUsers().let {
+            println(it)
+        }
     }
 
     println("Main Ended")

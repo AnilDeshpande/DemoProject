@@ -6,17 +6,11 @@ import kotlinx.coroutines.delay
 class MockAPICalls: APICalls {
 
     // Sample Lists
-    var people = listOf<Person>(
-        Person("Anil","Deshpande","Indian",40),
-        Person("Amit","Behl","Indian",26),
-        Person("George","Orwel","UK",50),
-        Person("Hazel","Keech","UK",26),
-        Person("Anees","Khan","Pakistan",30),
-        Person("James","Blend","UK",15),
-    )
+    var people = mutableListOf<Person>()
 
     override suspend fun registerUser(person: Person): Response {
         delay(1000)
+        people.add(person)
         return Response(200, "User Successfully registered", null)
     }
 
