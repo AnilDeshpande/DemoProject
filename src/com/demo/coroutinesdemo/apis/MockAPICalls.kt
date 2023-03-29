@@ -15,7 +15,7 @@ class MockAPICalls: APICalls {
     }
 
     override suspend fun getAllUsers(): Response {
-        delay(100)
+        delay(1000)
         return Response(
             200,
             "All Registered Users",
