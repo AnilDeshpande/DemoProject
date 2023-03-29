@@ -8,18 +8,16 @@ fun main(array: Array<String>) = runBlocking {
     val apiCalls: APICalls = MockAPICalls()
 
     println("Main Started")
-
-     launch {
-        apiCalls.registerUser(Person("SampleFirstName","SampleLastName","SampleNationality",30)).let {
-            println(it)
-        }
+    launch {
+        apiCalls.registerUser(Person("George","Hamlin","USA",34)).let { println(it) }
+        apiCalls.registerUser(Person("Hannah","James","UK",50)).let { println(it) }
     }.join()
 
-    launch {
-        apiCalls.getAllUsers().let {
-            println(it)
-        }
-    }
+    val response = async {
+        apiCalls.getAllUsers()
+    }.await()
+
+    println("The response is : ${response}")
 
     println("Main Ended")
 }
