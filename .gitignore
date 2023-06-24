@@ -4,3 +4,5 @@ out/production/KotlinDemoProject_for_Codetutor/com/demo/classes/*.class
 .idea/
 .idea/workspace.xml
 *.kotlin_module
+src/com/demo/AnikaDemo.jar
+src/com/demo/inlineclassesdemo/inlineclassesdemo.jar
