@@ -8,6 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
-    <orderEntry type="library" name="de.brudaswen.kotlinx.coroutines.swt" level="project" />
+    <orderEntry type="library" name="de.brudaswen.kotlinx.coroutines.swt" level="application" />
   </component>
 </module>
